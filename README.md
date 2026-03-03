@@ -1,101 +1,97 @@
-# Namaste React 🚀
+# 🍔 Swiggy Clone – React Food Delivery App
 
+A fully responsive Swiggy-inspired food delivery web application built using modern React architecture, Redux Toolkit, and Parcel bundler.
 
-# Parcel
-- Dev Build
-- Local Server
-- HMR = Hot Module Replacement
-- File Watching Algorithm - written in C++
-- Caching - Faster Builds
+---
+
+## 🚀 Tech Stack
+
+- React 19
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- Parcel Bundler
+- Jest
+- React Testing Library
+
+---
+
+## ✨ Features
+
+- 🔍 Search Restaurants
+- 🛒 Add to Cart
+- ❌ Remove from Cart
+- 🧹 Clear Cart Functionality
+- 🔄 Real-time UI Updates
+- ⚡ Client-Side Routing
+- 📱 Fully Responsive Design
+- 🧪 Unit & Component Testing
+
+---
+
+## 🏗️ Project Architecture
+
+### 🔹 Header
+- Logo
+- Navigation Items
+
+### 🔹 Body
+- Search Bar
+- Restaurant Container
+  - Restaurant Card
+    - Image
+    - Restaurant Name
+    - Star Rating
+    - Cuisine
+    - Delivery Time
+
+---
+
+## ⚛️ React Concepts Used
+
+### React Hooks
+- `useState()` – State management
+- `useEffect()` – Handling side effects
+
+### Routing
+- Client-Side Routing using React Router
+
+---
+
+## 🗂️ Redux Toolkit Implementation
+
+- Installed `@reduxjs/toolkit` and `react-redux`
+- Created centralized Redux Store
+- Built `cartSlice`
+- Used `dispatch(action)` for state updates
+- Used `useSelector` to access store data
+
+---
+
+## 📦 Parcel Bundler Features
+
+Parcel provides:
+
+- Development Build
+- Local Development Server
+- Hot Module Replacement (HMR)
+- File Watching Algorithm (written in C++)
+- Caching for Faster Builds
 - Image Optimization
 - Minification
-- Bundling
-- Compress
-- Consistent Hashing
+- Bundling & Compression
 - Code Splitting
-- Differential Bundling - support older browsers
-- Diagnostic
-- Error Handling
-- HTTPs
-- Tree Shaking - remove unused code
-- Different dev and prod bundles
+- Tree Shaking (removes unused code)
+- Differential Bundling (supports older browsers)
+- Error Handling & Diagnostics
+- HTTPS Support
+- Separate Dev & Production Builds
 
+---
 
+## 📤 Export & Import Types
 
-# Namaste Food
-
-
-/**
- * Header
- *  - Logo
- *  - Nav Items
- * Body
- *  - Search
- *  - RestaurantContainer
- *    - RestaurantCard
- *      - Img
- *      - Name of Res, Star Rating, cuisine, delery tie
- * Footer
- *  - Copyright
- *  - Links
- *  - Address
- *  - Contact
- */
-
-
-
- Two types of Export/Import
-
-
-- Default Export/Import
-
+### Default Export
+```js
 export default Component;
-import Component from "path";
-
-
-- Named Export/Import
-
-export const Component;
-import {Component} from "path";
-
-
-# React Hooks
- (Normal JS utility functions)
-- useState() - Superpowerful State Variables in react
-- useEffect()
-
-
-
-#  2 types Routing in web apps
- - Client Side Routing
- - Server Side Routing
-
-
-
-
- # Redux Toolkit
-  - Install @reduxjs/toolkit and react-redux
-  - Build our store
-  - Connect our store to our app
-  - Slice (cartSlice)
-  - dispatch(action)
-  - Selector
-
-
-# Types of testing (devloper)
- - Unit Testing
- - Integration Testing
- - End to End Testing - e2e testing
-
-# Setting up Testing in our app
- - Install React Testing Library
- - Installed jest
- - Installed Babel dependencies
- - Configure Babel 
- - Configure Parcel Config file to disable default babel transpilation 
- - Jest  - npx create-jest
- - Install jsdom library
- - Install @babel/preset-react - to make JSX work in test cases
- - Include @babel/preset-react inside my babel config
- - npm i -D @testing-library/jest-dom
- 
+import Component from "./path";
