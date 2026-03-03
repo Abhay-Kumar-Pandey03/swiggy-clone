@@ -1,0 +1,120 @@
+{
+    "success": true,
+    "timestamp": "2026-03-01T18:00:00Z",
+    "data": {
+        "restaurant": {
+            "id": "5934",
+            "name": "Burger King",
+            "rating": 4.3,
+            "city": "Mumbai",
+            "area": "Khar",
+            "cuisines": [
+                "Burgers",
+                "Fast Food"
+            ],
+            "costForTwo": 400,
+            "menu": [
+                {
+                    "categoryId": "cat1",
+                    "title": "Recommended",
+                    "items": [
+                        {
+                            "id": "bk1",
+                            "name": "Original Whopper Veg (XL size Bun)",
+                            "price": 18900,
+                            "rating": 4.4,
+                            "isVeg": true,
+                            "inStock": true,
+                            "description": "Crunchy veg patty with lettuce, onions, tomatoes and smoky sauces.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/dc90cc06-f883-430d-be4b-75141c8064d9_6b832721-694c-4df4-96f0-308388144da0.jpg"
+                        },
+                        {
+                            "id": "bk2",
+                            "name": "Crispy Veg Burger",
+                            "price": 9900,
+                            "rating": 4.2,
+                            "isVeg": true,
+                            "inStock": true,
+                            "description": "Crispy veg patty with creamy mayo and lettuce.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/11/20/4389cb8d-93e5-4dd5-8013-73a927dd6b31_622133db-f6cc-4f88-ba37-118df0b143ce.jpg"
+                        }
+                    ]
+                },
+                {
+                    "categoryId": "cat2",
+                    "title": "Burgers",
+                    "items": [
+                        {
+                            "id": "bk4",
+                            "name": "Paneer King Burger",
+                            "price": 14900,
+                            "rating": 4.3,
+                            "isVeg": true,
+                            "inStock": true,
+                            "description": "Juicy paneer patty layered with fresh veggies.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/paneer_burger.jpg"
+                        },
+                        {
+                            "id": "bk5",
+                            "name": "Double Veg Delight",
+                            "price": 17900,
+                            "rating": 4.5,
+                            "isVeg": true,
+                            "inStock": false,
+                            "description": "Double layered veg patties with cheese.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/double_veg.jpg"
+                        }
+                    ]
+                },
+                {
+                    "categoryId": "cat3",
+                    "title": "Meals",
+                    "items": [
+                        {
+                            "id": "bk7",
+                            "name": "Veg Whopper Meal",
+                            "price": 29900,
+                            "rating": 4.4,
+                            "isVeg": true,
+                            "inStock": true,
+                            "description": "Veg Whopper + Fries + Coke.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/veg_whopper_meal.jpg"
+                        }
+                    ]
+                },
+                {
+                    "categoryId": "cat4",
+                    "title": "Sides",
+                    "items": [
+                        {
+                            "id": "bk10",
+                            "name": "French Fries (M)",
+                            "price": 9900,
+                            "rating": 4.1,
+                            "isVeg": true,
+                            "inStock": true,
+                            "description": "Crispy golden french fries.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/fries.jpg"
+                        }
+                    ]
+                },
+                {
+                    "categoryId": "cat5",
+                    "title": "Beverages",
+                    "items": [
+                        {
+                            "id": "bk13",
+                            "name": "Coke",
+                            "price": 4900,
+                            "rating": 4.3,
+                            "isVeg": true,
+                            "inStock": true,
+                            "description": "Chilled Coca Cola.",
+                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/coke.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
